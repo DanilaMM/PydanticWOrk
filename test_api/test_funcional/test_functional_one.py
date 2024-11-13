@@ -1,4 +1,4 @@
 
 
-def test_functional():
-    print('Функциональный тест')
+def test_functional(allapi_fixture):
+    print(allapi_fixture)

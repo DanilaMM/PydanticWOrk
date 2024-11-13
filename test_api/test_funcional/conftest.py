@@ -3,5 +3,5 @@ import pytest
 
 
 @pytest.fixture
-def func_fixture():
-    return 'Фикстура для функциональных тестов'
+def allapi_fixture():
+    return 'Переопределенная фикстура для функиональных тестов'

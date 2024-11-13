@@ -1,3 +1,3 @@
 
-def test_nagruz():
-    print('Функциональный тест')
+def test_nagruz(nagruz_fixture):
+    print(nagruz_fixture)

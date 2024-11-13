@@ -1,4 +1,4 @@
 
 
-def test_ui():
-    print('Функциональный тест')
+def test_ui(ui_fixture):
+    print(ui_fixture)
